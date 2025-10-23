@@ -23,6 +23,8 @@ function calculateAndDisplay(fn) {
   const b = Number(rawB);
   document.getElementById('result').textContent = fn(a, b);
 }
+console.log('hello');
+console.log('There');
 
 
 ['add', 'subtract', 'multiply'].forEach(op => {
